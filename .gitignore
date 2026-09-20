@@ -1,0 +1,38 @@
+# ---------- 操作系统 ----------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ---------- 编辑器 / IDE ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+.fleet/
+*.swp
+*.swo
+*~
+
+# ---------- AI 编程客户端 ----------
+.cursor/
+.cursorrules
+.claude/
+.aider*
+.continue/
+.windsurf/
+.codeium/
+.trae/
+.workbuddy/
+.zed/
+.codex/
+.qodo/
+.tabnine/
+.roo/
+
+# ---------- 其它 ----------
+node_modules/
+*.log
