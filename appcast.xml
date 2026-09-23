@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>BreePhone</title>
+        <item>
+            <title>0.5.1</title>
+            <pubDate>Wed, 23 Sep 2026 14:54:46 +0800</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[BreePhone v0.5.1，macOS 上的原生 SIP 软电话。
+
+## 功能更新
+
+- 新增软件内自动更新。发现新版本后，可直接在 BreePhone 内下载并安装，更新包使用 EdDSA 签名校验。
+- 优化“关于”页面的更新状态布局，移除冗余入口，并提供项目主页链接。
+- 优化通话详情窗口尺寸，缩小窗口最小宽度，查看信令时更灵活。
+- SIP 原始报文改为点击信令后从侧边弹出，默认显示在右侧；内容不自动换行，支持滚动、选择和复制。
+- 增加 SIP 原始报文弹窗的默认高度，减少查看 `100 Trying`、`180 Ringing` 等报文时的滚动操作。
+- 修复替换安装后因 Sparkle Framework 加载路径缺失而无法启动的问题。
+- 修复设置页账号列表底部留白偏大的问题。
+
+## 安装说明
+
+1. 下载 `BreePhone-0.5.1.dmg`。
+2. 双击挂载，将 BreePhone 拖入“应用程序”并替换旧版本。
+3. 如果 macOS 阻止首次启动，请在“应用程序”中右键 BreePhone，选择“打开”。
+
+需要 macOS 13 或更高版本，目前支持 Apple Silicon Mac。
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/zpj80231/breephone/updates/BreePhone-0.5.1.zip" length="7558769" type="application/octet-stream" sparkle:edSignature="VKOTgVp+p8K5n7QmENEnLS6cbVyP3H1ChHvuQmdXqofhmPUeCiVBIyBvKP+9M0svz4Oph7HI5AjYBbSwHaDHDw=="/>
+        </item>
+    </channel>
+</rss>
